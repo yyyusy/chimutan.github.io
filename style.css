@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main-content {
+    width: 100%;
+    height: 60vh;
+    background-image: url(img/web\ banner.jpg);
+    background-size: cover;
+    background-position: 100%;
+    background-repeat: no-repeat;
+    margin-bottom: 150px;
+}
+
+.content {
+    margin: 150px 150px 60px 60px;
+    transform: translateY(30%);
+    width: 400px;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 50px;
+}
+
+.content h1 {
+
+    font-size: 50px;
+}
+
+#btn1 button {
+    width: 150px;
+    height: 32px;
+    background: transparent;
+    border: 1px solid black;
+    letter-spacing: 3px;
+    font-weight: bold;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+
+#btn1 button:hover {
+    background-color: pink;
+}
+
+#btn2 button {
+    width: 100px;
+    height: 30px;
+    background: transparent;
+    border: 1px solid black;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+
+#btn2 button:hover {
+    background-color: pink;
+}
+
+
+#btn3 button {
+    width: 150px;
+    height: 30px;
+    background: transparent;
+    border: 1px solid black;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+
+#btn3 button:hover {
+    background-color: pink;
+}
+
+
+#aboutCard {
+    margin: 30px 30px 100px 30px;
+}
+
+
+#aboutText {
+    margin-top: 50px;
+
+}
